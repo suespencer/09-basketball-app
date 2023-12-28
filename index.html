@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1>HOME</h1>
+                <h1 id="score-home">0</h1>
+                <button class="btn" onclick="addOneHome()">+1</button>
+                <button class="btn" onclick="addTwoHome()">+2</button>
+                <button class="btn" onclick="addThreeHome()">+3</button>                              
+            </div>
+            <div>
+                <h1>GUEST</h1>
+                <h1 id="score-guest">0</h1>
+                <button class="btn" onclick="addOneGuest()">+1</button>
+                <button class="btn" onclick="addTwoGuest()">+2</button>
+                <button class="btn" onclick="addThreeGuest()">+3</button>  
+            </div>
+        </div>
+        <div id="zero">
+            <button class="zero-btn" onclick="setZero()">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
